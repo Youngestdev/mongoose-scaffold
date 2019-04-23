@@ -5,13 +5,6 @@ const handler = require("./lib/handler");
 
 yargs
   .usage("$0 <cmd> [args]")
-  // .option("c", {
-  //   alias: "create",
-  //   demandOption: true,
-  //   default: true,
-  //   describe: "Create A New Mongo Schema",
-  //   type: "boolean"
-  // })
   .demandOption(
     ["create"],
     `Please provide the <name> of the file you want the schema to be saved in.`
