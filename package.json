@@ -1,0 +1,13 @@
+{
+  "name": "mongoose-scaffold",
+  "version": "0.0.1",
+  "description": "Scaffold Mongoose schema",
+  "main": "index.js",
+  "repository": "https://github.com/Youngestdev/mongoose-scaffold",
+  "author": "Abdulazeez Abdulazeez Adeshina",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "yargs": "^13.2.2"
+  }
+}

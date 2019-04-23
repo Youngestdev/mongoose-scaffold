@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add yargs
+
+PATH: 
+  /usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/Youngestev/.local/bin:/home/Youngestev/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.12.0
+
+Platform: 
+  linux ia32
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onread (net.js:622:25)
+
+npm manifest: 
+  {
+    "name": "mongoose-scaffold",
+    "version": "0.0.1",
+    "description": "Scaffold Mongoose schema",
+    "main": "index.js",
+    "repository": "https://github.com/Youngestdev/mongoose-scaffold",
+    "author": "Abdulazeez Abdulazeez Adeshina",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
