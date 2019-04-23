@@ -6,8 +6,12 @@
   "repository": "https://github.com/Youngestdev/mongoose-scaffold",
   "author": "Abdulazeez Abdulazeez Adeshina",
   "license": "MIT",
+  "bin": {
+    "mongoose-scaffold": "./index.js"
+  },
   "private": false,
   "dependencies": {
+    "chalk": "^2.4.2",
     "yargs": "^13.2.2"
   }
 }

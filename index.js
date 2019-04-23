@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
 const yargs = require('yargs');
+const chalk = require('chalk');
 const handler = require("./lib/handler");
 
 yargs
   .usage("$0 <cmd> [args]")
   .demandOption(
     ["create"],
-    `Please provide the <name> of the file you want the schema to be saved in.`
+    chalk.red`Please provide the <name> of the file you want the schema to be saved in.`
   )
   .command(
     "$0 [create]",
