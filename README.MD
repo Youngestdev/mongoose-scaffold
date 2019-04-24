@@ -1,4 +1,4 @@
-# Mongo-Scaffold
+# Mongoose-Scaffold
 
 ```bash
 npm i -g mongoose-scaffold 
